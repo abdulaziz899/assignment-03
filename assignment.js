@@ -1,6 +1,6 @@
 
 
-//kilometerToMerer section start
+//kilometerToMeter section start
 function kilometerToMeter(kilometer) {
     if (kilometer<0) {                                               //bonus section
         return 'it is not possible';
@@ -13,7 +13,7 @@ function kilometerToMeter(kilometer) {
 
  var result=kilometerToMeter(10);                                       //enter positive or negative 
  console.log(result);
-//kilometerToMerer section end
+//kilometerToMeter section end
 
 //budget calculator section start
 
@@ -37,7 +37,7 @@ function budgetCalculator(watch,phone,laptop) {
     return totalCost;
 }
 
-var cost=budgetCalculator(5,10,3); //enter positive or negative value;
+var cost=budgetCalculator(5,10,5); //enter positive or negative value;
 console.log(cost);
 
 //budget calculator section end 
